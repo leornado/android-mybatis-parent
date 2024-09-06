@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2010-2022 the original author or authors.
+       Copyright 2010-2024 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.mybatis</groupId>
+  <groupId>android.org.mybatis</groupId>
   <artifactId>mybatis-parent</artifactId>
   <version>36</version>
   <packaging>pom</packaging>
@@ -547,7 +547,7 @@
           <version>${assembly.plugin}</version>
           <dependencies>
             <dependency>
-              <groupId>org.mybatis</groupId>
+              <groupId>android.org.mybatis</groupId>
               <artifactId>base-bundle-descriptor</artifactId>
               <version>${base-bundle.version}</version>
             </dependency>
